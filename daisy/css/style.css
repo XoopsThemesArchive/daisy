@@ -1,0 +1,162 @@
+/*  
+Theme Name: Daisy
+Theme URI: http://sandbox.scribblesgraphics.com/
+Description: Three column.	
+Version: 1.0
+Theme Design by dana (www.scribblesgraphics.com) 04/27/06
+
+Theme licensed under Creative Commons Attribution 2.5 License.
+	
+*/
+
+body              { color: #696969; font-size: 11px; line-height: 125%; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background: #fafad2 repeat; margin: 5px 0px; padding: 0px 0px 5px }
+
+table {width: 100%;text-align: left;}
+table.toptable , table.maintable , table.footertable  { margin-right: auto; margin-left: auto; width: 900px }
+table td     { font-size: 11px; font-family: Arial, Helvetica, Geneva; vertical-align: top; margin-bottom: 5px; padding: 0 0 0px; border: 0 }
+
+table.maintable  { background-color: #ffffff; border-right: 1px solid #aca899; border-bottom: 1px solid #aca899; border-left: 1px solid #aca899; height: 600px }
+table.toptable   { background-color: #fff; border-top: 1px solid silver; border-right: 1px solid silver; border-left: 1px solid silver }
+p, div      { font-size: 11px; line-height: 125%; margin-bottom: 5px }
+
+
+a    { color: #808000; text-decoration: none; background-color: transparent }
+a:hover    { color: #808000; text-decoration: underline }
+
+img {border: 0px;}
+img#swap {width: 9px;height: 9px;}
+
+h1      { color: #808000; font-size: 18px; line-height: 125%; font-family: Arial, Helvetica, Geneva, SunSans-Regular; margin-top: 3px; margin-bottom: 3px; padding-bottom: 0px }
+h2   { color: #696969; font-size: 16px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; margin-top: 3px; margin-bottom: 3px }
+h3   { color: #808000; font-size: 14px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; margin-top: 3px; margin-bottom: 3px }
+h4 {}
+h5 {}
+legend {font-weight: bold;}
+
+div.wrapper { text-align: center; }
+
+.centered {text-align: center;}
+
+.item {margin-bottom: 10px; border: 1px solid #D0D0E0;}
+.itemHead {background-color: #f7f7f7;position: relative;margin-bottom: 10px;z-index: 0; padding: 5px;}
+.itemBody {background-color: #ffffff;position: relative;margin-bottom: 10px;z-index: 0; padding: 5px;}
+.itemTitle  {/*color: #003150;*/font-size: 110%;font-weight: normal;text-decoration: none;margin: 0px 0px .2em 0px;padding: 0px 0px 2px 0px;}
+.itemInfo {/*color: #8CA6B6;*/font-size: 0.85em; text-align: right; padding-right: 5px;}
+.itemBody {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+.itemText:first-letter {font-size: 133%; font-weight: bold;}
+.itemAdminLink {font-size: 95%;}
+.itemPermaLink {font-size: 95%;}
+.itemPoster {font-size: 95%; /*font-style:italic;*/}
+.itemPostDate {font-size: 95%/*; font-style:italic;*/}
+.itemTitle a { text-decoration: none; }
+.itemFoot {text-align: right; background-color: #f7f7f7; padding: 5px;}
+
+.comTitle a { text-decoration: none; }
+.comTitle {font-size: 110%;font-weight: normal;text-decoration: none;margin: 0px 0px .2em 0px;padding: 0px 0px 2px 0px;border-bottom: 1px solid #d0d0e0;}
+.comText {/*position: relative;margin: 5px 5px 5px 15px;left: 120px;float: left;*/line-height: 1.5em;}
+.comUserStat {font-size: 10px; color: #436792; font-weight:bold; border: 1px solid silver; background-color: #ffffff; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: bold;}
+.comUserStatus {color: #436792; font-weight:bold;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.comUserdetails {float: left;/*position: relative;top: 50px;left: 10px;*/font-size: 0.85em;border: 1px solid #d0d0e0;background-color: #fff9ef;padding: 3px;/*margin: 5px 5px 5px 5px;*/text-align: center;margin: 5px 10px 5px 0px;z-index: 0; }
+.comUserName {font-weight: bold;font-size: 110%;}
+
+.comIcons {float: right;position: relative;font-size: 0.85em;top: -25px;right: 5px;}
+.comContainer {background-color: #ffffff;border: 1px solid #D0D0E0;position: relative;margin-bottom: 10px;z-index: 0;}
+
+th  { color: #ffffff; font-family: Verdana, Arial, Helvetica, sans-serif; background-color: #808000; vertical-align: middle; padding: 2px }
+
+td#headerbanner      { background-color: #808000; text-align: right; vertical-align: middle; padding-right: 5px }
+td#headerlogo  { background-color: white; text-align: center; vertical-align: middle }
+td#headerbar {height: 20px;}
+
+td#date {color: #272727;width: 20%;text-align: left;vertical-align: middle;padding-left: 5px;font-weight: bold;font-size: 90%;}
+td#search {width: 95%;text-align: right;vertical-align: middle;padding-right: 10px;}
+
+/*Left Column**/
+td#leftcolumn      { font-size: 11px; background: #f5f5dc repeat left ; padding: 2px 1px 3px; border: solid 1px silver; width: 160px; height: 560px }
+td#leftcolumn th    { color: #808000; background-color: #fff; letter-spacing: normal; vertical-align: middle }
+td#leftcolumn div.blockTitle        { color: white; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background: #808000 url(../images/flower.gif) no-repeat right center; text-align: left; text-transform: uppercase; text-indent: 3px; letter-spacing: 0.1em; margin-bottom: 3px; padding-top: 1px; padding-bottom: 1px; padding-left: 2px }
+td#leftcolumn div.blockContent    { line-height: 125%; margin-bottom: 10px; padding: 3px }
+
+td#leftcolumn_nobg {width: 160px;height:560px; font-size:11px;background-color: #ffffff;padding: 20px 5px 5px 5px;}
+/*Center Column**/
+td#centercolumn        { font-size: 11px; padding: 3px; border: solid 1px silver; width: 570px; height: 600px }
+
+td#centercolumn th    { color: white; background-color: #808000; letter-spacing: normal; vertical-align: middle }
+td#centerCcolumn {padding: 0px 3px 1px 3px;}
+td#centerCcolumn div.blockTitle       { color: #808000; font-weight: bold; font-size: 12px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background: url(../images/flower_white.gif) no-repeat left center; text-indent: 18px; letter-spacing: normal; margin-top: 0px; margin-left: 3px; padding: 3px; border-top: 1px solid #808000; border-bottom: 1px solid #808000 }
+td#centerCcolumn div.blockContent      { line-height: 125%; background: no-repeat right top; margin-right: 0px; margin-bottom: 5px; margin-left: 5px }
+
+/*Center Left Column**/
+td#centerLcolumn     { padding: 0px; width: 50% }
+td#centerLcolumn div.blockTitle      { color: #808000; font-weight: bold; font-size: 12px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background: url(../images/flower_white.gif) no-repeat left center; text-indent: 18px; letter-spacing: normal; margin-top: 0px; margin-left: 3px; padding: 3px; border-top: 1px solid #808000; border-bottom: 1px solid #808000 }
+td#centerLcolumn div.blockContent      { line-height: 125%; background: no-repeat right top; margin-bottom: 5px; margin-left: 5px; padding-top: 3px; padding-bottom: 5px; padding-left: 3px }
+
+/*Center Right Column**/
+td#centerRcolumn    { margin: 0px; padding: 0px; width: 50% }
+td#centerRcolumn div.blockTitle      { color: #808000; font-weight: bold; font-size: 12px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background: url(../images/flower_white.gif) no-repeat left center; text-indent: 18px; letter-spacing: normal; margin-top: 0px; margin-left: 3px; padding: 3px; border-top: 1px solid #808000; border-bottom: 1px solid #808000 }
+td#centerRcolumn div.blockContent        { line-height: 125%; background: no-repeat right top; margin-bottom: 5px; margin-left: 5px; padding-top: 3px; padding-bottom: 3px; padding-left: 3px }
+
+div#content {text-align: left; padding: 8px;}
+
+/*Right Column**/
+td#rightcolumn         { padding: 2px 1px 3px; border: solid 1px silver; width: 160px }
+td#rightcolumn th    { color: white; background-color: #808000; vertical-align: middle }
+td#rightcolumn div.blockTitle      { color: #808000; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background: #f5f5dc repeat-x left center; text-align: center; text-transform: uppercase; letter-spacing: normal; margin-bottom: 3px; padding-top: 2px; padding-left: 2px; border-top: 1px solid #808000; border-bottom: 1px solid #808000 }
+td#rightcolumn div.blockContent    { color: #808080; line-height: 125%; margin-bottom: 10px; padding: 3px 3px 3px 10px }
+
+/*Footer**/
+td#footerbar    { color: #edeff1; font-size: 11px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background-color: #808000; text-align: center; letter-spacing: normal }
+td#footerbar a  { color: #edeff1 }
+
+/*Main Menu**/
+td#mainmenu a     { color: #696969; font-weight: bold; font-size: 11px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; text-decoration: none; letter-spacing: normal; margin: 0 0 0 5px; padding: 1px 2px; display: block }
+td#mainmenu a:hover      { color: #808000; text-decoration: underline; background-color: transparent }
+td#mainmenu a.menuTop {padding-left: 3px; }
+td#mainmenu a.menuMain {padding-left: 3px; }
+td#mainmenu a.menuSub     { color: #808000; font-weight: normal; background-color: transparent; margin-left: 10px; padding-left: 10px; border: 0px }
+
+/*User menu**/
+td#usermenu a   { font-size: 11px; line-height: 13px; margin: 0; padding: 1px 4px; display: block }
+td#usermenu a.highlight {background-color: #fcc;}
+
+.outer {border: 1px solid #CCCCCC;}
+.head {background-color: #e7e7e7; padding: 3px; font-weight: normal;}
+.even {background-color: #e7e7e7; padding: 3px;}
+.odd {background-color: #f7f7f7; padding: 3px;}
+.foot    { color: #808000; font-weight: bold; background-color: white; text-align: center; padding: 3px }
+tr.head td   { font-weight: bold; background-color: #c0c0c0; padding: 3px }
+tr.even td {background-color: #efefef; padding: 3px;}
+tr.odd td {background-color: #f7f7f7; padding: 3px;}
+tr.foot td {background-color: #f7f7f7; padding: 3px; font-weight: bold;}
+
+/* forms elements */
+input  { color: #333333; font-size: 11px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background-color: #f7f7f7; padding-left: 3px; border: solid 1px #cccccc }
+textarea  { color: #333333; font-size: 11px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; background-color: #f7f7f7; border: solid 1px #cccccc; width: 430px }
+select  { font-size: 11px; font-family: Arial, Helvetica, Geneva, SunSans-Regular; border: solid 1px #cccccc }
+.formButton {background-color: #ece9e3;color: #676767;font-weight: bold;text-align:center;}
+input:focus, textarea:focus{background-color: #ffffff;border: 1px solid #9f9f9f;}
+
+.search_block {margin-top: 0px;}
+#notifs_form {display: none;}
+
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px; height: 200px; overflow: auto;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.section .item {margin-bottom: 0px;}
+fieldset  { margin: 0px; padding: 0px; border: 0px }
+ul { text-align: left; list-style-type: decimal; list-style-position: inside; margin: 2px; padding: 2px }
+ol { text-align: left; list-style-type: decimal; list-style-position: inside; margin: 0px 2px 0px 5px; padding: 2px 2px 0px }
+li   { color: #272727; list-style-type: square; list-style-position: inside; margin-top: 1px; margin-bottom: 10px; margin-left: 2px; padding-top: 0px; padding-bottom: 0px }
